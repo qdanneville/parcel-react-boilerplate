@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Counter extends React.Component<any, any> {
+export class Counter extends React.Component {
   render() {
     return <p>hello</p>;
   }
