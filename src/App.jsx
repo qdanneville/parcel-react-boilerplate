@@ -1,16 +1,12 @@
 import React from 'react';
-import { Counter } from './components/Counter';
 
 export class App extends React.Component {
-    render() {
-        let text = 'My App is ready :)';
-        return (
-            <div>
-                <h2>My App</h2>
-                <Counter text="Chickens" />
-                <Counter text="Ducks" />
-            </div>
-        );
-    }
+  render() {
+    let text = 'My App';
+    return (
+      <div className="App">
+        <h2>{text !== '' ? text : 'Default App Name'}</h2>
+      </div>
+    );
+  }
 }
-
