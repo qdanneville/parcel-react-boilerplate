@@ -1,7 +1,7 @@
 {
   "name": "parcel-react-boilerplate",
   "version": "1.0.0",
-  "description": "The basics of a parcel react app",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,15 +10,25 @@
     "type": "git",
     "url": "git+https://QuentinDanneville@github.com/qdanneville/parcel-react-boilerplate.git"
   },
-  "author": "Quentin Danneville",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/qdanneville/parcel-react-boilerplate/issues"
   },
   "homepage": "https://github.com/qdanneville/parcel-react-boilerplate#readme",
   "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.15.1",
+    "eslint-plugin-react": "^7.12.4",
     "parcel-bundler": "^1.12.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
   }
 }
