@@ -1,7 +1,9 @@
 import React from 'react';
 
-export class Counter extends React.Component {
+export default class Counter extends React.Component {
   render() {
-    return <p>hello</p>;
+    const {array} = this.props;
+
+    return <p>{array[0]}</p>;
   }
 }
